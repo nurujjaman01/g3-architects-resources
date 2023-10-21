@@ -1,0 +1,8 @@
+.architects-title{
+    color: var(--Dark-01, #131313);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700; 
+}
