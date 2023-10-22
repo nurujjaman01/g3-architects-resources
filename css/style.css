@@ -6,3 +6,351 @@
     font-style: normal;
     font-weight: 700; 
 }
+nav li{
+    color: var(--Dark-02, #424242);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 228px;
+}
+.header{
+    background-color: rgba(255, 144, 14, 0.10); 
+   width: 100%;
+    height: 1122px;
+}
+/* -----------------------------baner section style--------------------- */
+/* -------------------------------------------------------------------------- */
+.baner-title{
+color: var(--Dark-01, #131313);
+text-align: center;
+font-family: Work Sans;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+ margin-left: 475px;
+margin-right: 520px; 
+
+
+}
+.baner-discription{
+color: var(--Dark-03, #727272);
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+margin-left: 450px;
+margin-right: 450px;
+line-height: 26px;
+margin-top: -31px;
+}
+.baner-button{
+    color: #FFF;
+    text-align: center;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+border-radius: 8px;
+background: #FF900E;
+padding: 15px 25px;
+border:none;
+margin-left: 650px;
+margin-bottom: 50px; 
+
+
+}
+.baner-img img{
+    width: 1100px;
+    height: 550px;
+    margin:0px 0px 0 200px;
+  
+}
+/* ----------------------------------------Our Feature style------------------------------------------------------------------- */
+ .features-img img{
+    width: 242px;
+    height: 242px;
+    
+}
+.features{
+/* margin-left: 200px; */
+}
+.our-features{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   align-items: center;
+   justify-content: center;
+   padding:50px 200px
+}
+.Features-title{
+    color: var(--Dark-03, #727272);
+
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 500;
+width: 468px;
+}
+.our{
+    color: var(--Dark-01, #131313);
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+
+}
+.feat{
+color: #FF900E;
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+
+}
+.features-discription{
+    color: var(--Dark-03, #727272);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    width: 415px; 
+    margin-top: -20px; 
+    margin-bottom: 20px;
+}
+.features-button{
+    color: #FFF;
+text-align: center;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+border-radius: 8px;
+background: #FF900E;
+padding: 15px 25px;
+border: none;}
+/* ----------------------------------------Our Feature end------------------------------------------------------------------- */
+/* -------------------------------------------our Feature love style start------------------------------------------------------------------ */
+.features-injoy{
+    display: flex;
+    padding: 100px 200px;
+    gap: 100px;
+}
+.Features-love-title{
+    color: var(--Dark-01, #131313);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    width: 368px;
+    }
+
+       
+
+
+hr{
+    background: #b6670d;
+    height: 1px; 
+}
+
+
+.features-heat-img img{
+    width: 608px;
+height: 1082px;
+}
+.Features-heat{
+    border-radius: 8px;
+background: #FFF;
+box-shadow: 10px 10px 30px  rgba(0, 0, 0, 0.06);
+width: 400px;
+height: 171px;
+padding: 10px 33px; 
+margin-bottom: 30px;
+
+}
+.Features-love-description{
+    color: var(--Dark-03, #727272);
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+
+}
+.info-title{
+    color: var(--Dark-01, #131313);
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+
+}
+.info-discription{
+    color: var(--Dark-03, #727272);
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+width: 414px;
+
+}
+.heat-title{
+    color: #FFF;
+
+text-align: center;
+font-family: Work Sans;
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+margin-top: -0px;
+}
+.heat-dis{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+margin-top: -41px;
+
+}
+.heat-contaner{
+    border-radius: 8px;
+background: #FF900E;
+width: 342px;
+height: 180px;
+margin-top: -200px;
+margin-left:-50px ;
+border: none;
+
+}
+/* -------------------------------------------our Feature love style end ------------------------------------------------------------------ */
+/* -----------------------------------------------Some Facts style start---------------------------------------------------------------------- */
+.some-fact-img{
+    display: flex;
+    gap: 100px;
+    margin-left:20px;
+   
+}
+.some-fact-thims{
+     border-radius: 8px;
+    border: 1px solid #FF900E;
+    width: 141.831px;
+    height: 141.831px;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 20px;
+    
+   
+}
+.images-discription{
+    color: var(--Dark-03, #727272);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: -25px;
+    
+}
+.images-title{
+    color: var(--Dark-02, #424242);
+text-align: center;
+font-family: Work Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 600;
+margin-top: -1px;
+}
+.some-facts{
+    margin-left: 210px;
+}
+.some-fact-title{
+color: var(--Dark-01, #131313);
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+}
+
+.some-fact-dis{
+    color: var(--Dark-03, #727272);
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+width: 442px;
+margin-top: -21px;
+margin-bottom: 50px;
+
+}
+.some-fact-dis{
+    margin-bottom:70px;
+}
+.sponspor-title{
+    color: var(--Dark-01, #131313);
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+}
+.sponspor-discription{
+color: var(--Dark-03, #727272);
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+width: 442px;
+margin-left: 550px;
+margin-top: -25px;
+margin-bottom: 40px;
+
+}
+.our-sponspors{
+    text-align: center;
+}
+.Sponsors{
+    display: flex;
+    gap: 100px;
+    margin-left: 100px;
+}
+.Sponsors img{
+    width: 80%;
+    margin-bottom: 100px;
+    
+}
+.footer-dis{
+    color: var(--Dark-02, #424242);
+text-align: center;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+padding-top: 50px;
+
+}
+footer{
+border-radius: 8px;
+background: #FFF4E7;
+width: 1140px;
+height: 100px;
+margin-left: 140px;
+margin-bottom: 110px;
+
+
+
+}
+
+
+
+/* -----------------------------------------------Some Facts style end---------------------------------------------------------------------- */
