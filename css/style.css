@@ -147,23 +147,21 @@ border: none;}
     display: flex;
     padding: 100px 200px;
     gap: 100px;
+
 }
 .Features-love-title{
-    color: var(--Dark-01, #131313);
+    
     font-family: Work Sans;
     font-size: 45px;
     font-style: normal;
     font-weight: 700;
     width: 368px;
+    margin-left: 25px;
+
+    
+    
     }
 
-       
-
-
-hr{
-    background: #b6670d;
-    height: 1px; 
-}
 
 
 .features-heat-img img{
@@ -233,6 +231,14 @@ margin-top: -200px;
 margin-left:-50px ;
 border: none;
 
+}
+.love{
+    border-left: 5px solid  #FF900E;
+    width: 5px;
+    height: 106px;
+    
+    
+    
 }
 /* -------------------------------------------our Feature love style end ------------------------------------------------------------------ */
 /* -----------------------------------------------Some Facts style start---------------------------------------------------------------------- */
